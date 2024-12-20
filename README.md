@@ -1,6 +1,6 @@
 # Awesome-LLM-Self-Improvement
 A curated list of awesome LLM Inference-Time Self-Improvement (**ITSI**, pronounced *"itsy"*) papers from our recent survey: 
-*A Survey on Large Language Model Inference-Time Self-Improvement*
+[*A Survey on Large Language Model Inference-Time Self-Improvement*](https://arxiv.org/pdf/2412.14352).
 
 > ⭐️ **Want to contribute?** Send us a pull request! New papers are welcome.
 
