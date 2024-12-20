@@ -272,6 +272,14 @@ Interaction with external models also includes tool use -- such as parsers, stat
 
 * FLAP: [FLAP: Flow-Adhering Planning with Constrained Decoding in LLMs](https://aclanthology.org/2024.naacl-long.29) (Roy et al., NAACL 2024)
 
+* FANTASE: [FANTAstic SEquences and Where to Find Them: Faithful and Efficient API Call Generation through State-tracked Constrained Decoding and Reranking](https://aclanthology.org/2024.findings-emnlp.359) (Wang et al., Findings 2024) ([Code] (https://github.com/Edillower/FANTASE))
+
+## Other Relevant Survey Paper You May Be Interested In
+* [When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs](https://aclanthology.org/2024.tacl-1.78.pdf) (Kamoi et al., TACL 2024) ([code] (https://github.com/ryokamoi/llm-self-correction-papers))
+
+* [Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies](https://arxiv.org/pdf/2308.03188) ([code] (https://github.com/teacherpeterpan/self-correction-llm-papers))
+
+
 # Citation
 If you find our survey helpful, cite us!
 ```
