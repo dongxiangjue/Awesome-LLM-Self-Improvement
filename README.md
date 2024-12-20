@@ -2,6 +2,10 @@
 A curated list of awesome LLM Inference-Time Self-Improvement (**ITSI**, pronounced *"itsy"*) papers from our recent survey: 
 [*A Survey on Large Language Model Inference-Time Self-Improvement*](https://arxiv.org/pdf/2412.14352).
 
+> 📬 **Contacts:** Questions, comments, contributions? Send us an email:
+> Xiangjue Dong (`xj.dong@tamu.edu`)
+> Maria Teleki (`mariateleki@tamu.edu`)
+
 > ⭐️ **Want to contribute?** Send us a pull request! New papers are welcome.
 
 ## Independent Self-Improvement
@@ -270,7 +274,16 @@ Interaction with external models also includes tool use -- such as parsers, stat
 
 * FLAP: [FLAP: Flow-Adhering Planning with Constrained Decoding in LLMs](https://aclanthology.org/2024.naacl-long.29) (Roy et al., NAACL 2024)
 
-
-# TEMPLATE
-* A: [T](l) (c et al., C) ([Code](l))
-
+# Citation
+If you find our survey helpful, cite us!
+```
+@misc{dong2024surveyllminferencetimeselfimprovement,
+      title={A Survey on LLM Inference-Time Self-Improvement}, 
+      author={Xiangjue Dong and Maria Teleki and James Caverlee},
+      year={2024},
+      eprint={2412.14352},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.14352}, 
+}
+```
