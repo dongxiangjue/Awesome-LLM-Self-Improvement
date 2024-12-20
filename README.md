@@ -2,9 +2,7 @@
 A curated list of awesome LLM Inference-Time Self-Improvement (**ITSI**, pronounced *"itsy"*) papers from our recent survey: 
 [*A Survey on Large Language Model Inference-Time Self-Improvement*](https://arxiv.org/pdf/2412.14352).
 
-> 📬 **Contacts:** Questions, comments, contributions? Send us an email:
-> Xiangjue Dong (`xj.dong@tamu.edu`)
-> Maria Teleki (`mariateleki@tamu.edu`)
+> 📬 **Contacts:** Questions, comments, contributions? Send us an email: Xiangjue Dong (`xj.dong@tamu.edu`) & Maria Teleki (`mariateleki@tamu.edu`).
 
 > ⭐️ **Want to contribute?** Send us a pull request! New papers are welcome.
 
