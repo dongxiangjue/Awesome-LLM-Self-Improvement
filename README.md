@@ -9,6 +9,11 @@ A curated list of awesome LLM Inference-Time Self-Improvement (**ITSI**, pronoun
 
 > ⭐️ **Want to contribute?** Send us a pull request! New papers are welcome.
 
+## Inference-Time Self-Improvement (ITSI)
+We survey in this work this notion of LLM Inference-Time Self Improvement (ITSI) – i.e., relying on the LLM’s own frozen parameters without additional training or parameter updating to improve performance and/or efficiency at inference-time. We classify these methods into three categories: Independent Self-Improvement, which operates independently; Context-Aware Self-Improvement, which leverages external support (i.e. context and datastore retrieval); and Model-Aided Self-Improvement, which relies on external models for collaboration.
+
+![Overview](fig5.png)
+
 ## Contents
 
 - [Independent Self-Improvement](#independent-self-improvement)
@@ -30,6 +35,7 @@ A curated list of awesome LLM Inference-Time Self-Improvement (**ITSI**, pronoun
     - [Reward Model](#reward-model)
     - [Tool Use/APIs](#tool-useapis)
 - [Other Relevant Survey Papers](#other-relevant-survey-papers)
+- [Citation](#citation)
 
 ## Independent Self-Improvement
 Independent Self-Improvement is achieving improvements in performance using the model's own frozen parameters without additional training -- i.e., by modifying the decoding process, increasing efficiency, sampling multiple candidate generations, and isolating layers or neurons.
