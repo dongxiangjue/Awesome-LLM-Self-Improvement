@@ -1,10 +1,35 @@
 # Awesome-LLM-Self-Improvement
+[![Awesome](https://awesome.re/badge.svg)]() 
+[![PDF](https://img.shields.io/badge/PDF-2409.06857-green)](https://arxiv.org/pdf/2412.14352)
+
 A curated list of awesome LLM Inference-Time Self-Improvement (**ITSI**, pronounced *"itsy"*) papers from our recent survey: 
 [*A Survey on Large Language Model Inference-Time Self-Improvement*](https://arxiv.org/pdf/2412.14352).
 
 > 📬 **Contacts:** Questions or comments? Send us an email: Xiangjue Dong (`xj.dong@tamu.edu`) & Maria Teleki (`mariateleki@tamu.edu`).
 
 > ⭐️ **Want to contribute?** Send us a pull request! New papers are welcome.
+
+## Contents
+
+- [Independent Self-Improvement](#independent-self-improvement)
+    - [Constrained Decoding](#constrained-decoding)
+    - [Contrastive Decoding](#contrastive-decoding)
+    - [Minimum Bayes-Risk Decoding](#minimum-bayes-risk-decoding)
+    - [Parallel Decoding](#parallel-decoding)
+    - [Sampling-Based Decoding](#sampling-based-decoding)
+    - [Tree-Search-based Decoding](#tree-search-based-decoding)
+    - [Model-level Decoding](#model-level-decoding)
+- [Context-Aware Self-Improvement](#context-aware-self-improvement)
+    - [Prompting](#prompting)
+    - [Disturbed Prompt](#disturbed-prompt)
+    - [Retrieval-Based](#retrieval-based)
+- [Model-Aided Self-Improvement](#model-aided-self-improvement)
+    - [Expert and/or Anti-Expert](#expert-andor-anti-expert)
+    - [Draft Model](#draft-model)
+    - [Small LMs/Amateur LMs](#small-lmsamateur-lms)
+    - [Reward Model](#reward-model)
+    - [Tool Use/APIs](#tool-useapis)
+- [Other Relevant Survey Papers](#other-relevant-survey-papers)
 
 ## Independent Self-Improvement
 Independent Self-Improvement is achieving improvements in performance using the model's own frozen parameters without additional training -- i.e., by modifying the decoding process, increasing efficiency, sampling multiple candidate generations, and isolating layers or neurons.
@@ -231,6 +256,8 @@ Draft model is used in Speculative Decoding, a method which accelerates LLM infe
 
 * GliDe: [GliDe with a CaPE: A Low-Hassle Method to Accelerate Speculative Decoding](https://openreview.net/forum?id=mk8oRhox2l) (Du et al., ICML 2024) ([Code](https://github.com/NonvolatileMemory/GliDe_with_a_CaPE_ICML_24))
 
+* Survey: [Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding](https://aclanthology.org/2024.findings-acl.456) (Xia et al., Findings 2024)
+
 ### Small LMs/Amateur LMs
 In addition to the Draft Model used in Speculative Decoding, other Small LMs -- also referred to as Amateur LMs --  are used to guide LLM generation.
 
@@ -272,16 +299,16 @@ Interaction with external models also includes tool use -- such as parsers, stat
 
 * FLAP: [FLAP: Flow-Adhering Planning with Constrained Decoding in LLMs](https://aclanthology.org/2024.naacl-long.29) (Roy et al., NAACL 2024)
 
-* FANTASE: [FANTAstic SEquences and Where to Find Them: Faithful and Efficient API Call Generation through State-tracked Constrained Decoding and Reranking](https://aclanthology.org/2024.findings-emnlp.359) (Wang et al., Findings 2024) ([Code] (https://github.com/Edillower/FANTASE))
+* FANTASE: [FANTAstic SEquences and Where to Find Them: Faithful and Efficient API Call Generation through State-tracked Constrained Decoding and Reranking](https://aclanthology.org/2024.findings-emnlp.359) (Wang et al., Findings 2024) ([Code](https://github.com/Edillower/FANTASE))
 
 ## Other Relevant Survey Papers
+We think the methods discussed in these two self-correction surveys – generating an initial output and then refining it – can be considered a subset of self-improvement, particularly as the inference-time methods align with the scope of our survey.
 * [When Can LLMs Actually Correct Their Own Mistakes? A Critical Survey of Self-Correction of LLMs](https://aclanthology.org/2024.tacl-1.78.pdf) (Kamoi et al., TACL 2024) ([Code](https://github.com/ryokamoi/llm-self-correction-papers))
 
 * [Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies](https://arxiv.org/pdf/2308.03188) (Pan et al., TACL 2024) ([Code](https://github.com/teacherpeterpan/self-correction-llm-papers))
 
-
 # Citation
-If you find our survey helpful, cite us!
+If you find our survey or repository helpful, please consider citing our paper:
 ```
 @misc{dong2024surveyllminferencetimeselfimprovement,
       title={A Survey on LLM Inference-Time Self-Improvement}, 
