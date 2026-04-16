@@ -313,6 +313,8 @@ We think the methods discussed in these two self-correction surveys – generati
 
 * [Automatically Correcting Large Language Models: Surveying the landscape of diverse self-correction strategies](https://arxiv.org/pdf/2308.03188) (Pan et al., TACL 2024) ([Code](https://github.com/teacherpeterpan/self-correction-llm-papers))
 
+* [CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery](https://arxiv.org/abs/2604.01658) (Qu et al., arXiv 2026) ([Code](https://github.com/Human-Agent-Society/CORAL)) — Multi-agent self-improvement at the agent-system level via shared persistent memory and asynchronous evolution; relevant as a multi-agent counterpart to inference-time self-improvement.
+
 # Citation
 If you find our survey or repository helpful, please consider citing our paper:
 ```
