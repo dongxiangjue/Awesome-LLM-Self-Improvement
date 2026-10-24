@@ -112,6 +112,8 @@ Parallel decoding generates multiple tokens simultaneously during the decoding p
 
 * SoT: [Skeleton-of-Thought: Prompting LLMs for Efficient Parallel Generation](https://openreview.net/forum?id=mqVgBbNCm9) (Ning et al., ICLR 2024) ([Code](https://github.com/imagination-research/sot))
 
+* Uncode: [Empirical Analysis of Decoding Biases in Masked Diffusion Models](https://aclanthology.org/2026.acl-long.311/) (Huang et al., ACL 2026) ([Code](https://github.com/NEUIR/Uncode))
+
 ### Sampling-Based Decoding
 
 Sampling-based methods introduce randomness for token selection to generate diverse text or sample multiple generation paths from the model.
@@ -178,6 +180,8 @@ Prompting uses carefully crafted prompts to enable few-shot or zero-shot learnin
 * Generation Exploitation Attack: [Catastrophic Jailbreak of Open-source LLMs via Exploiting Generation](https://openreview.net/forum?id=r42tSSCHPh) (Huang et al., ICLR 2024) ([Code](https://github.com/Princeton-SysML/Jailbreak_LLM))
 
 * URIAL: [The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning](https://openreview.net/forum?id=wxJ0eXwwda) (Lin et al., ICLR 2024) ([Code](https://github.com/Re-Align/urial))
+
+* TAR: [Translate-and-Revise: Boosting Large Language Models for Constrained Translation](https://aclanthology.org/2024.ccl-1.82/) (Huang et al., CCL 2024)
 
 
 ### Disturbed Prompt
